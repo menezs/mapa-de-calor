@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints
+
+map.html
+municipios.csv
+tratamento_dados.ipynb
