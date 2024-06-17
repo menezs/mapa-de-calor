@@ -36,8 +36,8 @@ quantidade = 0
 df_auxiliar = alunos_por_cidade
 for index, nome in enumerate(alunos_por_cidade['nome']):
 
-    latitude = alunos_por_cidade.iloc[index]['latitude']
-    longitude = alunos_por_cidade.iloc[index]['longitude']
+    latitude = alunos_por_cidade.iloc[index]['latitude'].item()
+    longitude = alunos_por_cidade.iloc[index]['longitude'].item()
 
     if (float(latitude) == -3.11866) and (float(longitude) == -60.0212):
         cidades_em_manaus.append(nome)
